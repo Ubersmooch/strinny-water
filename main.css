@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Pacifico&display=swap') ;
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Questrial&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Source+Code+Pro&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    /* background-color: #24252A; */
+    
+}
+
+header {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: center;
+    background-color: #24252A;
+    padding-right: 10px;
+    padding-bottom: 1px;
+    /* padding: 30px 10%; */
+}
+
+body { 
+    background: url(images/backdrop.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;  
+}
+
+li, a, button {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+.logo {
+    cursor: pointer;
+    margin-right: right;
+    order: 0;
+}
+
+.nav_links {
+    list-style: none;
+    order: 1;
+}
+.nav_links li {
+    display: inline-block; 
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    transition: 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color: #0088a9
+}
+
+button {
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(0,136,169,0.8);
+}
+
+h1 {
+    font-family:"Pacifico", sans-serif;
+    font-size: 48px;
+    text-align: center;
+    color: #c99c61
+}
+
+
+.introText, .aboutusText, .productsText, .faqText, .contactText, .sponsorsText {
+    font-family: "Questrial", sans-serif;
+    font-size: 18px;
+    text-align: center;
+    color: #c99c61
+}
+
+.qanda1, .qanda2, .qanda3 {
+    font-family: "Questrial", sans-serif;
+    font-size: 18px;
+    text-align: left;
+    color: #c99c61
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.bottle1, .bottle2 {
+    cursor: pointer;
+}
+
+.cta {
+    display: flex;
+    justify-content: right;
+    order: 2;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+}
+
+.credentials {
+    display: flex;
+    justify-content: center;
+    font-family: "Questrial", sans-serif;
+    color: #c99c61;
+}
+
+.spa {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+} 
